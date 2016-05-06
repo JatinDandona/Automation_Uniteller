@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Assertion passed: LOGIN Page title is same as expected]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13083" started-at="2016-05-06T09:21:56Z" finished-at="2016-05-06T09:22:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13083" started-at="2016-05-06T09:21:56Z" finished-at="2016-05-06T09:22:09Z">
+      <class name="com.UnitellerAutomation.Tests.Uniteller_UserLogin">
+        <test-method status="PASS" signature="Step_01_LaunchApplication()[pri:0, instance:com.UnitellerAutomation.Tests.Uniteller_UserLogin@72cde7cc]" name="Step_01_LaunchApplication" duration-ms="13073" started-at="2016-05-06T02:21:56Z" finished-at="2016-05-06T02:22:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Assertion passed: LOGIN Page title is same as expected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Step_01_LaunchApplication -->
+      </class> <!-- com.UnitellerAutomation.Tests.Uniteller_UserLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
