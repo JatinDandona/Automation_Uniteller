@@ -22,16 +22,21 @@ public class TestInitiator {
 		
 	}
 	 
-	 public void initializePageObjects(){
+	 private void initializePageObjects(){
 		 loginPage = new LogInPage(driver);
 	 }
 	 
 	 
-	 public  void Initializefirefoxbrowser(){
+	 private  void Initializefirefoxbrowser(){
 		 driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
 	 }
+	 
+	 
+	 
+	 
+	 
 	
 	public void launchURL(String url){
 		driver.get(url);

@@ -5,6 +5,7 @@
     <classes>
       <class name="com.UnitellerAutomation.Tests.Uniteller_UserLogin">
         <methods>
+          <include name="loadTestData"/>
           <include name="Step_01_LaunchApplication"/>
         </methods>
       </class> <!-- com.UnitellerAutomation.Tests.Uniteller_UserLogin -->

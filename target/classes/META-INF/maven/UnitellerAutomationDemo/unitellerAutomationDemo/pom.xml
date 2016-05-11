@@ -56,6 +56,11 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
+          <phase>integration-test</phase>
+          <goals>
+          <goal>test</goal>
+          </goals>
+          
         </configuration>
                
             </plugin>
