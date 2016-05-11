@@ -1,3 +1,3 @@
 userId = xyz@abc.con
 Password = 12345
-signInErrorMessage = Invalid login Attempt. Please provide valid credentials to prevent your login from being loc
+signInErrorMessage = Invalid login Attempt. Please provide valid credentials to prevent your login from being locked.
