@@ -1,3 +1,9 @@
 userId = xyz@abc.con
 Password = 12345
 signInErrorMessage = Invalid login Attempt. Please provide valid credentials to prevent your login from being locked.
+
+userId_addBen_cashPichUp = uniteller05112016@gmail.com
+userId_addBen_Password = Cognam@123
+securityQuestion_ans1 = test/What was your childhood nickname?
+securityQuestion_ans2 = QA/In what city did you meet your spouse/significant other?
+securityQuestion_ans3 = 1111/What street did you live on in third grade? 

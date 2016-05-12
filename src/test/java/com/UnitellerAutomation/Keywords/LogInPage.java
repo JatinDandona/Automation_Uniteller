@@ -1,9 +1,13 @@
 package com.UnitellerAutomation.Keywords;
 
+import java.util.ArrayList;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
+
+import com.unitellerAutomation.TestInitiator.TestInitiator;
 
 
 
@@ -44,4 +48,25 @@ public class LogInPage{
 		
 		Reporter.log("Assertion passed: Error Message is same as expected",true);
 	}
+	
+	public void getSecurityQuestion(ArrayList<String> securityQuestion_ans){
+		for(String s: securityQuestion_ans){
+			String[] a = s.split("/");
+			System.out.println(a[0]);
+			System.out.println(a[1]);
+			TestInitiator.hardwait(2);
+			if(a[1].contains(driver.findElement(By.xpath("//div[@class='email_box']")).getText().split("[0-9]")[1])){
+				TestInitiator.hardwait(2);
+				driver.findElement(By.id("firstAnswer")).sendKeys(a[0]);
+			}	
+		}
+	}
+	
+	public void verifyCompleteProfilePopUp(){
+		driver.findElement(By.xpath(".//div[@id='boonton_pop' and @style!='display:none;']")).isDisplayed();
+		Reporter.log("Pop up to complete the profile is displayed", true);
+		
+		driver.findElement(By.xpath(".//img[@id='hide_nav_pop']")).click();
+	}
+	
 }

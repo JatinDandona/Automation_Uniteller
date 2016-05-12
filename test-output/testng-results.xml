@@ -5,7 +5,10 @@
       <![CDATA[Assertion passed: LOGIN Page title is same as expected]]>
     </line>
     <line>
-      <![CDATA[user entered user id as xyz@abc.con]]>
+      <![CDATA[user entered user id as uniteller05112016@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on login button]]>
     </line>
     <line>
       <![CDATA[user enterd password]]>
@@ -14,25 +17,85 @@
       <![CDATA[User clicked on login button]]>
     </line>
     <line>
-      <![CDATA[Assertion passed: Error Message is same as expected]]>
+      <![CDATA[User clicked on login button]]>
+    </line>
+    <line>
+      <![CDATA[Pop up to complete the profile is displayed]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on beneficiary tab]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on add new beneficiary link]]>
+    </line>
+    <line>
+      <![CDATA[assertion passed]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on destination country drop down]]>
+    </line>
+    <line>
+      <![CDATA[user selected on preffered currency ]]>
+    </line>
+    <line>
+      <![CDATA[user selected on reception method as cashpickup ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[user selected state ]]>
+    </line>
+    <line>
+      <![CDATA[assertion passed]]>
+    </line>
+    <line>
+      <![CDATA[addded payer info]]>
+    </line>
+    <line>
+      <![CDATA[User clicked on login button]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19884" started-at="2016-05-11T11:31:48Z" finished-at="2016-05-11T11:32:08Z">
+  <suite name="Default suite" duration-ms="77212" started-at="2016-05-12T12:07:02Z" finished-at="2016-05-12T12:08:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19884" started-at="2016-05-11T11:31:48Z" finished-at="2016-05-11T11:32:08Z">
-      <class name="com.UnitellerAutomation.Tests.Uniteller_UserLogin">
-        <test-method status="PASS" signature="loadTestData()[pri:0, instance:com.UnitellerAutomation.Tests.Uniteller_UserLogin@169e6180]" name="loadTestData" is-config="true" duration-ms="6" started-at="2016-05-11T04:31:48Z" finished-at="2016-05-11T04:31:48Z">
+    <test name="Default test" duration-ms="77212" started-at="2016-05-12T12:07:02Z" finished-at="2016-05-12T12:08:20Z">
+      <class name="com.UnitellerAutomation.Tests.Uniteller_AddBeneficiary_cashPickup">
+        <test-method status="PASS" signature="loadTestData()[pri:0, instance:com.UnitellerAutomation.Tests.Uniteller_AddBeneficiary_cashPickup@169e6180]" name="loadTestData" is-config="true" duration-ms="5" started-at="2016-05-12T05:07:02Z" finished-at="2016-05-12T05:07:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadTestData -->
-        <test-method status="PASS" signature="Step_01_LaunchApplication()[pri:0, instance:com.UnitellerAutomation.Tests.Uniteller_UserLogin@169e6180]" name="Step_01_LaunchApplication" duration-ms="19868" started-at="2016-05-11T04:31:48Z" finished-at="2016-05-11T04:32:08Z">
+        <test-method status="PASS" signature="Step_01_LaunchApplication()[pri:0, instance:com.UnitellerAutomation.Tests.Uniteller_AddBeneficiary_cashPickup@169e6180]" name="Step_01_LaunchApplication" duration-ms="77198" started-at="2016-05-12T05:07:02Z" finished-at="2016-05-12T05:08:20Z">
           <reporter-output>
             <line>
               <![CDATA[Assertion passed: LOGIN Page title is same as expected]]>
             </line>
             <line>
-              <![CDATA[user entered user id as xyz@abc.con]]>
+              <![CDATA[user entered user id as uniteller05112016@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on login button]]>
             </line>
             <line>
               <![CDATA[user enterd password]]>
@@ -41,11 +104,68 @@
               <![CDATA[User clicked on login button]]>
             </line>
             <line>
-              <![CDATA[Assertion passed: Error Message is same as expected]]>
+              <![CDATA[User clicked on login button]]>
+            </line>
+            <line>
+              <![CDATA[Pop up to complete the profile is displayed]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on beneficiary tab]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on add new beneficiary link]]>
+            </line>
+            <line>
+              <![CDATA[assertion passed]]>
+            </line>
+            <line>
+              <![CDATA[user clicked on destination country drop down]]>
+            </line>
+            <line>
+              <![CDATA[user selected on preffered currency ]]>
+            </line>
+            <line>
+              <![CDATA[user selected on reception method as cashpickup ]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[user selected state ]]>
+            </line>
+            <line>
+              <![CDATA[assertion passed]]>
+            </line>
+            <line>
+              <![CDATA[addded payer info]]>
+            </line>
+            <line>
+              <![CDATA[User clicked on login button]]>
             </line>
           </reporter-output>
         </test-method> <!-- Step_01_LaunchApplication -->
-      </class> <!-- com.UnitellerAutomation.Tests.Uniteller_UserLogin -->
+      </class> <!-- com.UnitellerAutomation.Tests.Uniteller_AddBeneficiary_cashPickup -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

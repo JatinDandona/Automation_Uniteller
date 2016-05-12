@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -30,8 +31,6 @@ public class Uniteller_UserLogin {
 	  errorMessage = properties.getProperty("signInErrorMessage");
   }
   
-	
-	
 	@Test
 	public void Step_01_LaunchApplication(){
 		test.launchURL("http://unirtest.uniteller.com/");
@@ -40,10 +39,11 @@ public class Uniteller_UserLogin {
 		test.loginPage.EnterPassword(password);
 		test.loginPage.clickLoginButton();
 		test.loginPage.verifyFailedLogInMessage(errorMessage);
-		
-		
-		
-		
+	}
+	
+	@AfterClass
+	public void closeBrowser(){
+		test.closeBrowser();
 	}
 	
 

@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.UnitellerAutomation.Tests.Uniteller_UserLogin"/>
+      <class name="com.UnitellerAutomation.Tests.Uniteller_AddBeneficiary_cashPickup"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->
