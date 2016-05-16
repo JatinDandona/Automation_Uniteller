@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="66.941" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="AutomationUniteller"/>
+    <property name="testngxml" value="testng.xml"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\Jatin\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="45e9ca2ff512d494"/>
+    <property name="POM_ARTIFACTID" value="unitellerAutomationDemo"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="unitellerAutomationDemo"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\Jatin\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="GIT_COMMITTER_EMAIL" value="jdandona@cognam.com"/>
+    <property name="user.name" value="Jatin"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#45"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="64d824ae2de9e69a6ee494104591b2c01e136d16"/>
+    <property name="LOCALAPPDATA" value="C:\Users\Jatin\AppData\Local"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="USERNAME" value="Jatin"/>
+    <property name="GIT_AUTHOR_NAME" value="jatindandona"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="45"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\Jatin\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="user.variant" value=""/>
+    <property name="GIT_PREVIOUS_COMMIT" value="77c7f3b99242ea4cbd0892bfb5032c2ed0ee4a7a"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_91"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\Jatin"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="COGNAM-PC-39"/>
+    <property name="POM_GROUPID" value="UnitellerAutomationDemo"/>
+    <property name="user.home" value="C:\Users\Jatin"/>
+    <property name="GIT_COMMITTER_NAME" value="jatindandona"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-AutomationUniteller-45"/>
+    <property name="JENKINS_SERVER_COOKIE" value="45e9ca2ff512d494"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\Jatin"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Jatin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\Program Files\Java\jdk1.8.0_91/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\Jatin\AppData\Local\Programs\Git\cmd;C:\Git\cmd;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\Jatin\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\Jatin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.class.path" value="C:\Users\Jatin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.7.jar;C:\Users\Jatin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\Jatin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\Jatin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Users\Jatin\.jenkins\war\WEB-INF\lib\remoting-2.57.jar C:\Users\Jatin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Users\Jatin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 52249"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_91/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\Jatin\AppData\Local\Programs\Git\cmd;C:\Git\cmd"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_91/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\Jatin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.io.tmpdir" value="C:\Users\Jatin\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\Jatin\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\Jatin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/AutomationUniteller/45/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\Jatin\workspace\QA\Automation_Uniteller"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/AutomationUniteller/"/>
+    <property name="LOGONSERVER" value="\\COGNAM-PC-39"/>
+    <property name="USERDOMAIN" value="Cognam-PC-39"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\Jatin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="45"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3c03"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="77c7f3b99242ea4cbd0892bfb5032c2ed0ee4a7a"/>
+    <property name="=C:" value="C:\Users\Jatin\Downloads"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\Jatin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar"/>
+    <property name="WORKSPACE" value="C:\Users\Jatin\.jenkins\workspace\AutomationUniteller"/>
+    <property name="maven3.interceptor.common" value="C:\Users\Jatin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar"/>
+    <property name="GIT_AUTHOR_EMAIL" value="jdandona@cognam.com"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="GIT_URL" value="https://github.com/JatinDandona/Automation_Uniteller.git"/>
+  </properties>
+  <testcase classname="com.UnitellerAutomation.Tests.Uniteller_UserLogin" name="Step_01_LaunchApplication" time="61.397">
+    <failure message="Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;proceed&quot;}
+Command duration or timeout: 45.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Cognam-PC-39&apos;, ip: &apos;10.72.15.92&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 39216e2b-f00a-42e8-bd72-ecde8cf2418b
+*** Element info: {Using=id, value=proceed}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;proceed&quot;}
+Command duration or timeout: 45.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Cognam-PC-39&apos;, ip: &apos;10.72.15.92&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 39216e2b-f00a-42e8-bd72-ecde8cf2418b
+*** Element info: {Using=id, value=proceed}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.UnitellerAutomation.Keywords.LogInPage.clickLoginButton(LogInPage.java:40)
+	at com.UnitellerAutomation.Tests.Uniteller_UserLogin.Step_01_LaunchApplication(Uniteller_UserLogin.java:40)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;proceed&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;Cognam-PC-39&apos;, ip: &apos;10.72.15.92&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Jatin/AppData/Local/Temp/anonymous8909303172102673146webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Jatin/AppData/Local/Temp/anonymous8909303172102673146webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</failure>
+    <system-out>Assertion passed: LOGIN Page title is same as expected
+user entered user id as xyz@abc.con
+user enterd password
+</system-out>
+  </testcase>
+</testsuite>
