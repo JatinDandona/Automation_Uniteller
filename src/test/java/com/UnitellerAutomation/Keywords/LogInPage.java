@@ -37,7 +37,7 @@ public class LogInPage{
 	}
 	
 	public void clickLoginButton(){
-		driver.findElement(By.id("proceed")).click();
+		driver.findElement(By.xpath("//input[@value='Login']")).click();
 		Reporter.log("User clicked on login button", true);
 	}
 	

@@ -1,9 +1,13 @@
 package com.unitellerAutomation.TestInitiator;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import com.UnitellerAutomation.Keywords.AddNewBeneficiaryPage;
 import com.UnitellerAutomation.Keywords.HeaderSection;
@@ -21,16 +25,14 @@ public class TestInitiator {
 	
 	 public TestInitiator(){
 		 
-		 Initializefirefoxbrowser();
+		 //Initializefirefoxbrowser();
+		 initializeChromeBrowser();
 		 initializePageObjects();
+		
 		
 	}
 	 
-	 private void initializePageObjects(){
-		 loginPage = new LogInPage(driver);
-		 headerSection = new HeaderSection(driver);
-		 addNewBenfeciaryPage = new AddNewBeneficiaryPage(driver);
-	 }
+	 
 	 
 	 
 	 private  void Initializefirefoxbrowser(){
@@ -40,7 +42,22 @@ public class TestInitiator {
 	 }
 	 
 	 
+	 public void initializeChromeBrowser(){
+		/* DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+		 ChromeOptions options = new ChromeOptions();*/
+		 System.setProperty("webdriver.chrome.driver","Drivers\\chromedriver.exe");
+		 //options.addExtensions(new File("C:\\Users\\Jatin\\workspace\\QA\\Automation_Uniteller\\Drivers\\chromedriver.exe"));
+		 //capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+		  driver = new ChromeDriver();
+		  driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
+	 }
 	 
+	 private void initializePageObjects(){
+		 loginPage = new LogInPage(driver);
+		 headerSection = new HeaderSection(driver);
+		 addNewBenfeciaryPage = new AddNewBeneficiaryPage(driver);
+	 }
 	 
 	 
 	
