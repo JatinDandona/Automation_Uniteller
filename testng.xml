@@ -5,7 +5,7 @@
   <test name="test1">
     <classes>
        <class name="com.UnitellerAutomation.Tests.Uniteller_UserLogin"/>
-       
+         <class name="com.UnitellerAutomation.Tests.Uniteller_AddBeneficiary_cashPickup"/>
     </classes>
   </test>
 </suite>

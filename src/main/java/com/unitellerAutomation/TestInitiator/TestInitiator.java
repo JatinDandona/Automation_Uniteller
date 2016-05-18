@@ -1,13 +1,15 @@
 package com.unitellerAutomation.TestInitiator;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
+
 
 import com.UnitellerAutomation.Keywords.AddNewBeneficiaryPage;
 import com.UnitellerAutomation.Keywords.HeaderSection;
@@ -15,6 +17,8 @@ import com.UnitellerAutomation.Keywords.LogInPage;
 
 
 public class TestInitiator {
+	
+	Properties properties = new Properties();
 	
 	WebDriver driver;
 	
@@ -24,9 +28,21 @@ public class TestInitiator {
 	
 	
 	 public TestInitiator(){
+		 try {
+			properties.load(new FileInputStream(new File("config.properties")));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		 if(properties.getProperty("browser").equalsIgnoreCase("firefox")){
+			 Initializefirefoxbrowser();
+		 }
+		 else{
+			 initializeChromeBrowser();
+		 }
 		 
-		 //Initializefirefoxbrowser();
-		 initializeChromeBrowser();
+		 
+		 
 		 initializePageObjects();
 		
 		
