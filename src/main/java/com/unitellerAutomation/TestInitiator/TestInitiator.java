@@ -11,9 +11,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
-import com.UnitellerAutomation.Keywords.AddNewBeneficiaryPage;
-import com.UnitellerAutomation.Keywords.HeaderSection;
-import com.UnitellerAutomation.Keywords.LogInPage;
+import com.unitellerAutomation.Keywords.AddNewBeneficiaryPage;
+import com.unitellerAutomation.Keywords.HeaderSection;
+import com.unitellerAutomation.Keywords.LogInPage;
 
 
 public class TestInitiator {
