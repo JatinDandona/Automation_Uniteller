@@ -20,7 +20,7 @@ public class TestInitiator {
 	
 	Properties properties = new Properties();
 	
-	WebDriver driver;
+	public static WebDriver driver;
 	
 	 public LogInPage loginPage;
 	 public HeaderSection headerSection;
