@@ -50,6 +50,8 @@ public class LogInPage{
 	}
 	
 	public void getSecurityQuestion(ArrayList<String> securityQuestion_ans){
+		int flag=0;
+		{
 		for(String s: securityQuestion_ans){
 			String[] a = s.split("/");
 			System.out.println(a[0]);
@@ -58,8 +60,14 @@ public class LogInPage{
 			if(a[1].contains(driver.findElement(By.xpath("//div[@class='email_box']")).getText().split("[0-9]")[1])){
 				TestInitiator.hardwait(2);
 				driver.findElement(By.id("firstAnswer")).sendKeys(a[0]);
+				flag=1;
 			}	
 		}
+		}
+		if(flag==0){
+			Assert.fail();
+		}
+		
 	}
 	
 	public void verifyCompleteProfilePopUp(){
